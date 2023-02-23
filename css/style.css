@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.bg {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 300px;
+}
+
+.warning {
+    color: #B0842D;
+}
+
+input {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.btn-warning {
+    background-color: #B0842D !important;
+    border-color: #B0842D !important;
+    color: white !important;
+}
