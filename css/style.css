@@ -31,3 +31,52 @@ input {
     border-color: #B0842D !important;
     color: white !important;
 }
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: #EEEEEE;
+}
+
+.circle-logo {
+    width: 90px;
+}
+
+.menu a .active {
+    display: none;
+}
+
+.menu a:hover .inactive,
+.menu a.active .inactive {
+    display: none;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: #B0842D !important;
+}
+
+.menu a:hover .active,
+.menu a.active .active {
+    display: block;
+}
+
+.menu-item {
+    line-height: 2.2;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50%;
+}
