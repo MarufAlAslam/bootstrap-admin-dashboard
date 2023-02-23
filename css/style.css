@@ -72,11 +72,31 @@ html {
     line-height: 2.2;
 }
 
+.menu-item img {
+    width: 20px;
+}
+
 .fs-20 {
     font-size: 20px;
+}
+
+.fs-14 {
+    font-size: 14px;
 }
 
 .avatar {
     width: 50px;
     border-radius: 50%;
+}
+
+.img-fluid.profile-img {
+    position: absolute;
+    bottom: -70px;
+    left: 40px;
+    width: 130px;
+}
+
+.btn-success {
+    background-color: #2FA20E !important;
+    border-color: #2FA20E !important
 }
