@@ -9,3 +9,9 @@ if ($(window).width() > 768) {
     $(".sidebar-holder, .col-lg-9.col-md-8.p-0").toggleClass("active");
   });
 }
+
+if ($(window).width() < 768) {
+  $(".mobileMenuBtn, .menuBtn").click(function () {
+    $(".sidebar").toggleClass("active");
+  });
+}
