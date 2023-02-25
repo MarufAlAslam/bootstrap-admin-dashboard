@@ -1,102 +1,118 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .h-screen {
-    height: 100vh;
+  height: 100vh;
 }
 
 .bg {
-    background-image: url("../img/bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo {
-    width: 300px;
+  width: 300px;
 }
 
 .warning {
-    color: #B0842D;
+  color: #b0842d;
 }
 
-input {
-    outline: unset !important;
-    box-shadow: unset !important;
+input,
+select,
+textarea {
+  outline: unset !important;
+  box-shadow: unset !important;
 }
 
 .btn-warning {
-    background-color: #B0842D !important;
-    border-color: #B0842D !important;
-    color: white !important;
+  background-color: #b0842d !important;
+  border-color: #b0842d !important;
+  color: white !important;
 }
 
 .min-h-screen {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 body,
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .sidebar {
-    background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .circle-logo {
-    width: 90px;
+  width: 90px;
 }
 
 .menu a .active {
-    display: none;
+  display: none;
 }
 
 .menu a:hover .inactive,
 .menu a.active .inactive {
-    display: none;
+  display: none;
 }
 
 .menu a:hover,
 .menu a.active {
-    color: #B0842D !important;
+  color: #b0842d !important;
 }
 
 .menu a:hover .active,
 .menu a.active .active {
-    display: block;
+  display: block;
 }
 
 .menu-item {
-    line-height: 2.2;
+  line-height: 2.2;
 }
 
 .menu-item img {
-    width: 20px;
+  width: 20px;
 }
 
 .fs-20 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .avatar {
-    width: 50px;
-    border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .img-fluid.profile-img {
-    position: absolute;
-    bottom: -70px;
-    left: 40px;
-    width: 130px;
+  position: absolute;
+  bottom: -70px;
+  left: 40px;
+  width: 130px;
 }
 
 .btn-success {
-    background-color: #2FA20E !important;
-    border-color: #2FA20E !important
+  background-color: #2fa20e !important;
+  border-color: #2fa20e !important;
+}
+
+.border-dashed {
+  border: 1px dashed #707070;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+td {
+  vertical-align: middle !important;
 }
