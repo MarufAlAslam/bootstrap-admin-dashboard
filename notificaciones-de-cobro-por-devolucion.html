@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper min-h-screen">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 sidebar-holder active p-0">
+                    <div class="sidebar h-100 p-3">
+                        <div class="text-end">
+                            <button class="btn menuBtn">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <div class="text-center">
+                            <img src="img/circle-logo.png" class="img-fluid circle-logo" alt="">
+                        </div>
+
+                        <div class="text-center p-4">
+                            <p class="lead fw-bold">
+                                ANDAMIOS DEL ESTE
+                            </p>
+                            <hr class="mb-2">
+
+                            <ul class="list-unstyled m-0 mt-3 p-0 menu show">
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark active">
+                                        <img src="img/home.png" class="img-fluid inactive" alt="">
+                                        <img src="img/home-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Inicio
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/clients.png" class="img-fluid inactive" alt="">
+                                        <img src="img/clients-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Clientes
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/coti.png" class="img-fluid inactive" alt="">
+                                        <img src="img/coti-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Cotizaciones
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/tools.png" class="img-fluid inactive" alt="">
+                                        <img src="img/tools-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Productos
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/flow.png" class="img-fluid inactive" alt="">
+                                        <img src="img/flow-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Proyectos
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/file.png" class="img-fluid inactive" alt="">
+                                        <img src="img/file-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Conduces
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="my-4 menu-item">
+                                    <a href=""
+                                        class="d-flex justify-content-start align-items-center text-decoration-none text-dark">
+                                        <img src="img/graph.png" class="img-fluid inactive" alt="">
+                                        <img src="img/graph-active.png" class="img-fluid active" alt="">
+                                        <span class="d-inline-block ms-3 lead">
+                                            Reportes
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 p-0">
+                    <div class="topbar shadow border-bottom">
+                        <div class="d-flex justify-content-end align-items-center p-2 px-4">
+                            <div class="notification position-relative">
+                                <button class="btn notification-btn">
+                                    <i class="fa fa-bell fs-20 warning"></i>
+
+
+                                </button>
+                                <div class="notification-dropdown shadow">
+                                    <div class="card">
+                                        <div class="header bg-success px-5 py-2">
+                                            <p class="text-white mb-0">Notificaciones</p>
+                                        </div>
+                                        <div class="card-body text-start">
+                                            <a href="" class="text-dark text-decoration-none pb-2 d-block">
+                                                <p class="fw-semibold mb-0">
+                                                    Devolucion por cobrar
+                                                </p>
+                                                <p class="mb-0 fs-14 text-muted">
+                                                    Viernes, 13 de enero de 2023 10:50:20 AM
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer bg-white">
+                                            <div class="text-center">
+                                                <a href="" class="text-success text-decoration-none fw-semibold">
+                                                    Ver todas
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="" class="text-decoration-none">
+                                <img src="img/avatar.png" class="img-fluid mx-3 avatar" alt="">
+                            </a>
+
+                            <p class="mb-0 fs-14 fw-semibold">
+                                Johanna Adam
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-4">
+                        <p class="fw-semibold warning lead d-flex align-items-center">
+                            <a href="" class="warning text-decoration-none">Conduces</a> <i
+                                class="fa fa-angle-right mx-3 text-dark"></i>
+                            <a href="" class="warning text-decoration-none">Devoluciones</a>
+                        </p>
+                        <hr>
+
+                        <div class="card mt-3 border-dark rounded">
+                            <div class="card-body">
+                                <div class="text-end mb-4">
+                                    <form action="" class="d-flex justify-content-end">
+                                        <input type="text" class="form-control rounded-pill w-auto border-dark" name=""
+                                            id="">
+                                    </form>
+                                </div>
+
+                                <p class="lead fw-bold warning">
+                                    Devoluciones por cobrar
+                                </p>
+                                <table class="table table-gap">
+                                    <tr>
+                                        <th>
+                                            No Orden
+                                        </th>
+                                        <th>
+                                            No. Cotizacion
+                                        </th>
+                                        <th>
+                                            Proyecto
+                                        </th>
+                                        <th>
+                                            Fecha de expiracion
+                                        </th>
+                                        <th>
+                                            Recibio
+                                        </th>
+                                        <th>
+                                            Material Entregado
+                                        </th>
+                                        <th class="text-center">
+                                            Acciones
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            123-ABC
+                                        </td>
+                                        <td>
+                                            123-A12
+                                        </td>
+                                        <td>
+                                            Coca-Cola
+                                        </td>
+                                        <td>
+                                            01-03-2023
+                                        </td>
+                                        <td>
+                                            Lorena Vargaz Garcia
+                                        </td>
+                                        <td>
+                                            Entregado
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="" class="text-dark">
+                                                <i class="fa fa-credit-card"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <div class="pagination justify-content-end align-items-center">
+                                    <select name="" class="form-select w-auto" id="">
+                                        <option value="">10</option>
+                                        <option value="">20</option>
+                                        <option value="">50</option>
+                                    </select>
+                                    <p class="mx-4 mb-0">
+                                        1-5 de 10
+                                    </p>
+                                    <button class="btn">
+                                        <i class="fa fa-angle-left"></i>
+                                    </button>
+                                    <button class="btn">
+                                        <i class="fa fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
