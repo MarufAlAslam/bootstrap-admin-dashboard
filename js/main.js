@@ -15,3 +15,8 @@ if ($(window).width() < 768) {
     $(".sidebar").toggleClass("active");
   });
 }
+
+$(".has-submenu").click(function () {
+  $(".submenu").toggleClass("show");
+  $(this).toggleClass("active");
+});

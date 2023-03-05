@@ -233,6 +233,23 @@ td {
   top: 50px;
 }
 
+.submenu {
+  display: none;
+}
+
+.submenu.show {
+  display: block;
+}
+.has-submenu .fa.fa-caret-down {
+  right: 0;
+  transform-origin: center center;
+}
+.fa.fa-caret-down {
+  transition: 0.2s;
+}
+.has-submenu.active .fa.fa-caret-down {
+  transform: rotate(180deg);
+}
 /* @responsiveness */
 
 @media screen and (max-width: 767px) {
